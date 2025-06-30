@@ -42,7 +42,7 @@ const handleSubmit = async (e) => {
   setIsSubmitting(true);
   
   try {
-    const response = await fetch('https://backend-hotel-h18w-a5efnmw92-raiutkarsh544-gmailcoms-projects.vercel.app/api/bookings', {
+    const response = await fetch('https://backend-hotel-vnlc.onrender.com/api/bookings', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
